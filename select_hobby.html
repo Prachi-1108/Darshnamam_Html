@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            function count{
+                if(document.getElementById('cricket').checked)
+                   alert("You have selected 1 hobby.");
+                 
+                else
+                   alert("You have selected Female");
+                
+            }
+        </script>
+
+    </head>
+    <body style="text-align: center;">
+        <h1>WElCOME!</h1>
+        <b>Select Your Hobby:</b><br><br>
+        <input type="checkbox" id="cricket" name="cricket" value="Cricket">Cricket</input>
+        <input type="checkbox" id="music" name="music" value="Music">Music</input>
+        <input type="checkbox" id="painting" name="painting" value="Music">Painting</input>
+        <br> <br>
+        <input type="button" value="count" onclick="count()"/>
+    </body>
+</html>
